@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="align-center">
+        <div class="input-main">
+            <input type="text" id="main">
+        </div>
+        <div class="one">
+            <button onclick="getnum('+')">+</button>
+            <button onclick="getnum('-')">-</button>
+            <button onclick="getnum('/')">/</button>
+            <button onclick="getnum('*')">x</button>
+        </div>
+        <div class="two">
+            <button onclick="getnum('7')">7</button>
+            <button onclick="getnum('8')">8</button>
+            <button onclick="getnum('9')">9</button>
+        </div>
+        <div class="two">
+            <button onclick="getnum('4')">4</button>
+            <button onclick="getnum('5')">5</button>
+            <button onclick="getnum('6')">6</button>
+        </div>
+        <div class="two">
+            <button onclick="getnum('1')">1</button>
+            <button onclick="getnum('2')">2</button>
+            <button onclick="getnum('3')">3</button>
+        </div>
+        <div class="three">
+            <button onclick="getnum('0')" class="cut">0</button>
+            <button onclick="getnum('.')">.</button>
+            <button onclick="result()">=</button>
+            <button class="cut1" onclick="getclear()">C</button>
+        </div>
+    </div>
+
+    <!-- JavaScript File  -->
+    <script src="app.js"></script>
+</body>
+</html>
